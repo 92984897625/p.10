@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+  inteiro contador, auxi = 0
+ 
+    para ( contador = 1; contador <=100; contador++){
+      auxi = contador + auxi
+      escreva (contador, " | ",auxi,"\n")
+
+      }
+  }
+}
