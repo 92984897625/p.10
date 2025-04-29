@@ -1,0 +1,16 @@
+programa {
+   inclua biblioteca Util --> u
+   funcao inicio() {
+     inteiro contador,n_par = 0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10
+     
+     escreva ("os 10 numeros: ")
+      leia (n1,n2,n3,n4,n5,n6,n7,n8,n9,n10)
+
+     para ( contador = 1; contador <=10; contador++){
+         se (contador %2 == 0){
+        n_par = n_par + 1
+        }
+     }
+    escreva (n_par," numeros são pares\n\n")
+   }
+ }
